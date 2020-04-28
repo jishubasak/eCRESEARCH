@@ -7,6 +7,7 @@
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [![PyPI pyversions](https://img.shields.io/pypi/pyversions/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
 [![Build Status](https://travis-ci.org/anfederico/Clairvoyant.svg?branch=master)](https://travis-ci.org/anfederico/Clairvoyant)
@@ -20,7 +21,7 @@
 ## Research Overview
 
 The main objective of this project is to develop an Artificial Intelligent dashboard for SME's who are either current users of the platform or would be willing to avail the service in future. The objective of the project is to provide a Product Performance Dashboard where SME's would be able to visualize the Performing Index of their product across different regions in the world which should help make a strategic decision as to which ecommerce channel and what country should they be selling their products to. The dashboard also has a functionality to produce a machine generated product description.
-<p align="center"><img width=95% src="https://github.com/jishubasak/eCResearch/Schematic.png"></p>
+<p align="center"><img width=95% src="https://github.com/jishubasak/eCResearch/blob/master/catalog/Schematic.png"></p>
 
 <br>
 
@@ -48,7 +49,7 @@ in the next section.
 
 ## Data Pipeline
 The data warehouse for this project mainly consist of Amazon product data(description in the figure above) which was scraped using Selenium + BeautifulSoup. For our project, we used Amazon EC2 instances(Vertical Scaling) to run our scrapers and stored data in Amazon-S3 bucket. You can find codes for each product for each product category stored in jupyter notebook in the Data Warehouse folder.
-<p align="center"><img width=95% src="https://github.com/jishubasak/eCRESEARCH/blob/master/catalog/Schematic.png"></p>
+<p align="center"><img width=95% src="https://github.com/jishubasak/eCRESEARCH/blob/master/catalog/Data_pipeline.png"></p>
 
 
 ## Accessing S3 Bucket
