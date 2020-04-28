@@ -26,7 +26,7 @@ The main objective of this project is to develop an Artificial Intelligent dashb
 <br>
 
 ## Prototype Wireframe  
-<p align="center"><img width=95.5% src="https://github.com/jishubasak/eCRESEARCH/blob/master/catalog/ecfullfill_gif.gif" width=40%>,/p>
+<p align="center"><img width=95.5% src="https://github.com/jishubasak/eCRESEARCH/blob/master/catalog/ecfullfill_gif.gif" width=40%></p>
 
 <br>
 
@@ -79,10 +79,11 @@ except botocore.exceptions.ClientError as e:
         raise
 conn = sqlite3.connect('test.db')    
 df = pd.read_sql('''SELECT * FROM Product''', conn)
+
 ```
 
 
-#Modelling
+## Modelling
 After performing Data Cleaning, Wrangling and Preprocessing, which involved
 concatenation, text cleaning, data imputation(using KNNImputer), we consolidated
 all the database for a specific countries.
