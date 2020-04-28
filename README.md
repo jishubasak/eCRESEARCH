@@ -1,11 +1,13 @@
-<p align="center"><img width=12.5% src="https://github.com/jishubasak/eCResearch/ecFullfill.png"></p>
+<p align="left"><img width=40% src="https://github.com/jishubasak/eCRESEARCH/blob/master/catalog/ecFullfill.png"></p>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [![PyPI pyversions](https://img.shields.io/pypi/pyversions/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
 [![Build Status](https://travis-ci.org/anfederico/Clairvoyant.svg?branch=master)](https://travis-ci.org/anfederico/Clairvoyant)
 ![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)
@@ -23,13 +25,13 @@ The main objective of this project is to develop an Artificial Intelligent dashb
 <br>
 
 ## Prototype Wireframe  
-<img src="https://github.com/jishubasak/eCResearch/ecfullfill_gif.gif" width=40%>
+<p align="center"><img width=95.5% src="https://github.com/jishubasak/eCRESEARCH/blob/master/catalog/ecfullfill_gif.gif" width=40%>,/p>
 
 <br>
 
 ## Latest Development Changes
 ```bash
-git clone https://github.com/anfederico/eCResearch
+git clone https://github.com/jishubasak/eCRESEARCH
 ```
 
 ## Data Description
@@ -37,16 +39,16 @@ For this project we scraped data from the most popular ecommerce platform, Amazo
 For our current research, we only focused on 4 countries which are USA, India, United Kingdom and Australia. The data description
 is shown in the diagram below. All the highlights in the red were scraped and stored. The Data pipeline section will be discussed
 in the next section.
-<p align="center"><img width=95% src="https://github.com/jishubasak/eCResearch/data_des_1.png"></p>
+<p align="center"><img width=95% src="https://github.com/jishubasak/eCRESEARCH/blob/master/catalog/data_des_1.png"></p>
 
 <br>
 
-<p align="center"><img width=95% src="https://github.com/jishubasak/eCResearch/data_des_2.png"></p>
+<p align="center"><img width=95% src="https://github.com/jishubasak/eCRESEARCH/blob/master/catalog/data_des_2.png"></p>
 
 
 ## Data Pipeline
 The data warehouse for this project mainly consist of Amazon product data(description in the figure above) which was scraped using Selenium + BeautifulSoup. For our project, we used Amazon EC2 instances(Vertical Scaling) to run our scrapers and stored data in Amazon-S3 bucket. You can find codes for each product for each product category stored in jupyter notebook in the Data Warehouse folder.
-<p align="center"><img width=95% src="https://github.com/jishubasak/eCResearch/Schematic.png"></p>
+<p align="center"><img width=95% src="https://github.com/jishubasak/eCRESEARCH/blob/master/catalog/Schematic.png"></p>
 
 
 ## Accessing S3 Bucket
@@ -169,7 +171,7 @@ model_usa_shampoo.save("usa_shampoo.h5")
 For more information, please visit the directory 'Models' in the repository
 The schematic diagram of the architecture is mentioned below:
 
-<img src="https://github.com/jishubasak/eCResearch/architecture.png">
+<img src="https://github.com/jishubasak/eCResearch/blob/master/catalog/architecture.png">
 
 
 ## Web Application
