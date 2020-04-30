@@ -1,4 +1,4 @@
-<p align="left"><img width=40% src="https://github.com/jishubasak/eCRESEARCH/blob/master/catalog/ecFullfill.png"></p>
+<p align="center"><img width=40% src="https://github.com/jishubasak/eCRESEARCH/blob/master/catalog/ecFullfill.png"></p>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
