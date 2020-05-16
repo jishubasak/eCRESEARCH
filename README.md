@@ -18,6 +18,9 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 
+Demo: http://capstone.cosmicule.com
+
+
 ## Research Overview
 
 The main objective of this project is to develop an Artificial Intelligent dashboard for SME's who are either current users of the platform or would be willing to avail the service in future. The objective of the project is to provide a Product Performance Dashboard where SME's would be able to visualize the Performing Index of their product across different regions in the world which should help make a strategic decision as to which ecommerce channel and what country should they be selling their products to. The dashboard also has a functionality to produce a machine generated product description.
