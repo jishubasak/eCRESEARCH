@@ -1,4 +1,4 @@
-<p align="left"><img width=40% src="https://github.com/jishubasak/eCRESEARCH/blob/master/catalog/ecFullfill.png"></p>
+<p align="center"><img width=40% src="https://github.com/jishubasak/eCRESEARCH/blob/master/catalog/ecFullfill.png"></p>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -10,12 +10,15 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [![PyPI pyversions](https://img.shields.io/pypi/pyversions/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
-[![Build Status](https://travis-ci.org/anfederico/Clairvoyant.svg?branch=master)](https://travis-ci.org/anfederico/Clairvoyant)
+![Build Status](https://travis-ci.org/anfederico/Clairvoyant.svg?branch=master)
 ![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://gitHub.com/jishubasak/eCResearch)
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://github.com/jishubasak)
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://ecfullfill.com/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+
+Demo: http://capstone.cosmicule.com
 
 
 ## Research Overview
@@ -26,7 +29,7 @@ The main objective of this project is to develop an Artificial Intelligent dashb
 <br>
 
 ## Prototype Wireframe  
-<p align="center"><img width=95.5% src="https://github.com/jishubasak/eCRESEARCH/blob/master/catalog/ecfullfill_gif.gif" width=40%>,/p>
+<p align="center"><img width=95.5% src="https://github.com/jishubasak/eCRESEARCH/blob/master/catalog/ecfullfill_gif.gif" width=40%></p>
 
 <br>
 
@@ -79,10 +82,11 @@ except botocore.exceptions.ClientError as e:
         raise
 conn = sqlite3.connect('test.db')    
 df = pd.read_sql('''SELECT * FROM Product''', conn)
+
 ```
 
 
-#Modelling
+## Modelling
 After performing Data Cleaning, Wrangling and Preprocessing, which involved
 concatenation, text cleaning, data imputation(using KNNImputer), we consolidated
 all the database for a specific countries.
